@@ -1,0 +1,16 @@
+/* styles.css */
+body { font-family: sans-serif; margin: 0; padding: 0; background: #fff; color: #333; }
+header { background: #add8e6; padding: 1em; } /* Soft blue */
+nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; }
+.logo { font-size: 1.5em; color: #fff; }
+ul { list-style: none; display: flex; gap: 1em; flex-wrap: wrap; }
+a { color: #333; text-decoration: none; }
+.hero { text-align: center; padding: 4em 1em; background: #ffc0cb; color: #333; } /* Soft pink */
+.cta { background: #ffd700; color: #333; padding: 0.5em 1em; display: inline-block; } /* Warm gold */
+.impact-teasers, .partners { padding: 2em 1em; text-align: center; }
+.teaser-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1em; }
+form { max-width: 600px; margin: 0 auto; display: grid; gap: 1em; }
+footer { background: #f8f8f8; padding: 1em; text-align: center; font-size: 0.8em; }
+@media (max-width: 768px) { nav ul { flex-direction: column; } }
+/* Accessibility: High contrast, etc. */
+a:hover, button:hover { opacity: 0.8; }
